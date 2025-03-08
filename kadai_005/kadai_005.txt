@@ -1,0 +1,59 @@
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % cd        
+shotamiyazaki@miyazakishoutanoMacBook-Air ~ % mkdir git_challenge
+mkdir: git_challenge: File exists
+shotamiyazaki@miyazakishoutanoMacBook-Air ~ % cd git_challenge
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git add hello_world.txt
+fatal: pathspec 'hello_world.txt' did not match any files
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % cd /Users/shotamiyazaki/Documents/Git練習/git_challenge
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git add hello_world.txt
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git log
+commit 35751d5b8a428cdb7b1de455101dcac534d090ef (HEAD -> master)
+Author: miyazaki-0801 <s.m.h.1.8.1.dg@icloud.com>
+Date:   Sat Mar 8 14:11:38 2025 +0900
+
+    コメント変更１
+
+commit 593ce05d0ce78f8290f9112c46f2b360823d5a97
+Author: miyazaki-0801 <s.m.h.1.8.1.dg@icloud.com>
+Date:   Sat Mar 8 13:19:29 2025 +0900
+
+    テキスト変更２
+
+commit 46149c7e68b3c969579b1dfd07a8556cc622f73f
+Author: miyazaki-0801 <s.m.h.1.8.1.dg@icloud.com>
+Date:   Sat Mar 8 13:17:32 2025 +0900
+
+    テキスト変更１
+
+commit b21ce2fb869c67a0558d69ab4de1ebe109ce7b86
+Author: miyazaki-0801 <s.m.h.1.8.1.dg@icloud.com>
+Date:   Sat Mar 8 12:40:12 2025 +0900
+
+    変更２回目
+
+commit eb67078df0494f4f699381c504dd4d30210d6e41
+Author: miyazaki-0801 <s.m.h.1.8.1.dg@icloud.com>
+Date:   Sat Mar 8 12:36:59 2025 +0900
+
+    変更１回目
+
+commit 390223a4a6e6932daeba44180699e9f9e9054c32
+Author: miyazaki-0801 <s.m.h.1.8.1.dg@icloud.com>
+Date:   Sat Mar 8 11:48:45 2025 +0900
+
+    変更履歴１
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git add　hello_world.txt
+git: 'add　hello_world.txt' is not a git command. See 'git --help'.
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git add hello_world.txt
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git commit -m "コメント変更２"
+[master 061eee7] コメント変更２
+ 1 file changed, 1 insertion(+)
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git log --oneline
+061eee7 (HEAD -> master) コメント変更２
+35751d5 コメント変更１
+593ce05 テキスト変更２
+46149c7 テキスト変更１
+b21ce2f 変更２回目
+eb67078 変更１回目
+390223a 変更履歴１
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % 
