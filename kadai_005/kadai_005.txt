@@ -1,0 +1,35 @@
+shotamiyazaki@miyazakishoutanoMacBook-Air ~ % cd /Users/shotamiyazaki/Documents/Git練習/git_challenge
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git init
+Reinitialized existing Git repository in /Users/shotamiyazaki/Documents/Git練習/git_challenge/.git/
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git add hello_w
+orld.txt
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git commit -m" コメントの変更内容１"
+[main 4cd7be7] コメントの変更内容１
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .DS_Store
+        git_challenge/
+
+nothing added to commit but untracked files present (use "git add" to track)
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git add hello_w
+orld.txt
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git commit -m "
+コメント変更内容２"
+[main 43cde97] コメント変更内容２
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .DS_Store
+        git_challenge/
+
+nothing added to commit but untracked files present (use "git add" to track)
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % git log --oneli
+ne
+43cde97 (HEAD -> main) コメント変更内容２
+4cd7be7 コメントの変更内容１
+shotamiyazaki@miyazakishoutanoMacBook-Air git_challenge % 
